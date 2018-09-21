@@ -24,13 +24,7 @@ body {
   margin-top: -30px;
 }
 
-#collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 1.2em;
-  }
-  #collapsable-nav a span { /* Collapsed nav menu glyph */
-    font-size: 1em;
-    margin-right: 5px;
-  }
+
 #nav-list {
   margin-top: 10px;
 }
@@ -42,11 +36,9 @@ body {
   background: #E7E7E7;
 }
 #nav-list a span {
-  color: #951C49;
-  text-align: center;
-  background: #E7E7E7;
   font-size: 1.8em;
 }
+
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
   color: #557c3e;
@@ -125,10 +117,16 @@ h2{
   }
 }
 
-/********** Small devices only **********/
-@media (max-width: 991px) {
-  .container {
-    
+/********** mobile devices only **********/
+@media (max-width: 576px) {
+ 
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
   }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
 
 }
